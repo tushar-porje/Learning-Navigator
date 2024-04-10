@@ -2,6 +2,8 @@ package com.code_a_thon.learning_navigator.subject.entity;
 
 import java.util.List;
 
+import org.hibernate.annotations.GenericGenerator;
+
 import com.code_a_thon.learning_navigator.exam.entity.Exam;
 import com.code_a_thon.learning_navigator.student.entity.Student;
 
@@ -18,7 +20,7 @@ import lombok.Data;
 public class Subject {    
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE)
-    private String id;
+    private Integer id;
 
     private String name;
 

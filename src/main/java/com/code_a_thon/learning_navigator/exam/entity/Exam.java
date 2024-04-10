@@ -19,7 +19,7 @@ import lombok.Data;
 public class Exam {
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE)
-    private String id;
+    private Integer id;
 
     private String name;
 
