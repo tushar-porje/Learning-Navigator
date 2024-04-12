@@ -2,8 +2,6 @@ package com.code_a_thon.learning_navigator.subject.entity;
 
 import java.util.List;
 
-import org.hibernate.annotations.GenericGenerator;
-
 import com.code_a_thon.learning_navigator.exam.entity.Exam;
 import com.code_a_thon.learning_navigator.student.entity.Student;
 
